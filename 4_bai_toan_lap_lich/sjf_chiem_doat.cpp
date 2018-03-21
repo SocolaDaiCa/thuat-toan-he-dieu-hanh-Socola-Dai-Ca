@@ -124,7 +124,7 @@ void sjf_chiem_doat(int &line)
 	if(a[n].thoi_gian_con_phai_phuc_vu==0) // neu phu vu xong thi
 	{
 		a[n].thoi_diem_phuc_vu_xong=thoi_gian_da_qua;
-		n--;
+//		n--;
 	}
 	ve_khung(line_khung, ++cot, a[n].lich_thu, thoi_gian_da_qua);
 	
