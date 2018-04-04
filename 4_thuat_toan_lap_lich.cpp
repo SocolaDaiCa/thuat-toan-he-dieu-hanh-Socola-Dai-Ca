@@ -11,9 +11,9 @@ using namespace std;
 int main()
 {
 	int line=1;
-	fcfs(line), line++;
-	rr(line),line++;
-	sjf_k_chiem_doat(line), line++;
+//	fcfs(line), line++;
+//	rr(line),line++;
+//	sjf_k_chiem_doat(line), line++;
 	sjf_chiem_doat(line), line++;
 	gotoxy(0, line++),cout<<"Code by: Socola Dai Ca";
 	gotoxy(0,0);
